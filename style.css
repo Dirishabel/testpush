@@ -1,0 +1,63 @@
+#tomatobutton{
+    width: 100%;
+    height: 10%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+}
+#addtaskbutton{
+    display: block;
+    position: fixed;
+    margin: 1%;
+    bottom: 10%;
+    right: 0;
+}
+body{
+    background-color: #b2dfdb;
+}
+#headinfo{
+    
+    width: 70%;
+    height: 25%;
+    background-color: #e0f2f1;
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 8%;
+    min-height: 33px;
+}
+#bodyinfo{
+    
+    width: 70%;
+    height: 55%;
+    min-height: 66px;
+    background-color: #e0f2f1;
+    border-radius: 35px;
+    margin: auto;
+    margin-top: 5%;
+}
+#userinfo{
+    position: fixed;
+    width: 100%;
+    height: 25%;
+    background: url(images/mainhead.jpg);
+    background-size: cover;
+    font-family: "EurofurenceRegular";
+}
+#bodyinfo p{
+    margin: 1%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+}
+#userinfo p{
+    margin: 1%;
+    font-size: 18px;
+    font-weight: bold;
+}
+@font-face {
+    font-family: "EurofurenceRegular"; 
+    src: url("fonts/EurofurenceRegular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
