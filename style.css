@@ -44,14 +44,14 @@ body{
     font-family: "EurofurenceRegular";
 }
 #bodyinfo p{
-    margin: 1%;
+    padding: 2% 4%;
     font-size: 18px;
     font-weight: bold;
-    text-align: center;
+    margin: 0;
 
 }
-#userinfo p{
-    margin: 1%;
+#headinfo p{
+    padding: 2% 4%;
     font-size: 18px;
     font-weight: bold;
 }
