@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="style.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 </head>
 
@@ -25,6 +26,15 @@
     <div id='tasks'>
         <ul id='tasklist'>
         </ul>
+    </div>
+    <div id='registration'>
+        <div id=regwindow>
+            <input id='taskname' type="text" size="30" placeholder="Название задачи">
+            <input id='taskdate' type="date">
+            <button id="confirmadd" class="btn waves-effect waves-light" type="submit" name="action">Save
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
     </div>
     <a id='addtaskbutton' class="btn-floating btn-large waves-effect waves-light red"><i
             class="material-icons">add</i></a>

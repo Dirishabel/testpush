@@ -90,6 +90,39 @@ body{
     height: 30px;
     z-index: 0;
 }
+#registration{
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    z-index: 2;
+    visibility: hidden;
+}
+#regwindow{
+    position: fixed;
+    top: 20%;
+    left: 15%;
+    bottom: 40%;
+    right: 15%;
+    background-color: #e0f2f1;
+    border-radius: 0 20px;
+    padding: 10%;
+}
+#confirmadd{
+    position: absolute;
+    bottom: -15%;
+    right: 0;
+}
+#taskimportant{
+    z-index: 5;
+}
+#taskimportant{
+    -webkit-appearance: checkbox;
+    -webkit-font-smoothing: antialiased;
+    resize: none;
+}
 @font-face {
     font-family: "EurofurenceRegular"; 
     src: url("fonts/EurofurenceRegular.ttf") format("truetype"); 
