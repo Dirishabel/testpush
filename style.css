@@ -123,6 +123,11 @@ body{
     -webkit-font-smoothing: antialiased;
     resize: none;
 }
+.btn-small{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 77%;
+}
 @font-face {
     font-family: "EurofurenceRegular"; 
     src: url("fonts/EurofurenceRegular.ttf") format("truetype"); 
